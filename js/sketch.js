@@ -1,4 +1,4 @@
-let paletaFiambre = ["#F22727", "#F288A4", "#F26F63"];
+let paletaFiambre = ["#f33535","#ee5889","#f36e35","#ffac00","#ffb5b5"];
 let b = [];
 let bocata1;
 
@@ -90,11 +90,6 @@ class Bocata {
     triangle(240, 200, 260, 220, 240, 250);
     triangle(240, 250, 260, 270, 240, 300);
 
-    // texto
-    fill("#000000");
-    textAlign(CENTER);
-    textSize(70);
-    text("C", 150, 220);
     pop();
   }
 }
